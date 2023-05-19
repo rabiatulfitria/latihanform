@@ -6,6 +6,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="custom.js"></script>
+
 </head>
 <body>
 	<div class="input_container">
@@ -31,7 +35,7 @@
 		</form>
 	</div>
 	
-	<script type="text/javascript">
+	<script>
     $(document).ready(function () {
     $("#formValidation").validate ({
         rules:{
@@ -71,10 +75,7 @@
 	});
     
    </script>
-
-	<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-	<script type="text/javascript" src="custom.js"></script>
+	<script src="custom.js"></script>
 
 </body>
 </html>
