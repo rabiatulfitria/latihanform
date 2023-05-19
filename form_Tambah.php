@@ -10,8 +10,15 @@
     <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
     <script src="custom.js"></script>
 
+    <style>
+        .error {
+        border-color: red !important;
+        color: red !important;
+        }
+    </style>
 </head>
 <body>
+
 	<div class="input_container">
 		<form name="formValid" id="formValidation" action="proses_Tambah.php">
 			<div class="input-row">First Name
